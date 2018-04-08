@@ -6,13 +6,17 @@
  *
  * @package luke
  */
-
+	$post_icon = get_field('post_icon');
 ?>
 
 <article class="lp-blog-post-card">
 	<div class="lp-blog-post-card-decor">
 		<span class="lp-blog-post-card-line"></span>
-		<img class="lp-blog-post-card-icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/react.svg" alt="" />
+		<?php if($post_icon):?>
+			<i class="lp-icon lp-icon--<?php the_field('post_icon'); ?>"></i>
+		<?php else: ?>
+			<i class="lp-icon lp-icon--general"></i>
+		<?php endif; ?>
 		<span class="lp-blog-post-card-line"></span>
 	</div>
 	<header class="entry-header">
