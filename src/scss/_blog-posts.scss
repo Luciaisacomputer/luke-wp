@@ -1,0 +1,7 @@
+.lp-blog-posts-container {
+    @media (min-width: 1000px) { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+    }
+}

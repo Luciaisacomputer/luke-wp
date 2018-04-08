@@ -1,0 +1,18 @@
+.lp-introduction {
+    @media (min-width: 640px) { 
+        display: flex;
+
+        p {
+            font-size: 24px;
+        }
+    }
+
+    div {
+        padding: 15px;
+    }
+
+    img {
+        border-radius: 100%;
+    }
+
+}

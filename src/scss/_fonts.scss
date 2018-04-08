@@ -1,0 +1,45 @@
+// font-family: 'Roboto', sans-serif;
+// font-family: 'IBM Plex Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $plex;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+body,
+p {
+    font-family: $roboto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    color: $purple;
+
+    &:hover {
+        color: $notquiteblack;
+    }
+}

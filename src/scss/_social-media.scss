@@ -1,0 +1,21 @@
+.lp-social-media-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+
+}
+
+.social-media-icon {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    span {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100px;
+    }
+}

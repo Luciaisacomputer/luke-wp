@@ -1,0 +1,19 @@
+{
+  "name": "luke-wp-theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "css": "node-sass --output-style compressed --include-path scss src/scss/index.scss style.css",
+    "watch": "nodemon -e scss -x \"npm run css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Luke Pettway",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0"
+  }
+}
