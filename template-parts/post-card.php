@@ -15,7 +15,7 @@
 		<?php if($post_icon):?>
 			<i class="lp-icon lp-icon--<?php the_field('post_icon'); ?>"></i>
 		<?php else: ?>
-			<i class="lp-icon lp-icon--<?php the_field('post_icon'); ?>"></i>
+			<i class="lp-icon lp-icon--general"></i>
 		<?php endif; ?>
 		<span class="lp-blog-post-card-line"></span>
 	</div>
